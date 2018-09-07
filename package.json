@@ -1,0 +1,31 @@
+{
+  "name": "star-watcher",
+  "version": "1.0.0",
+  "description": "To get notified on star count",
+  "main": "App.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/theapache64/star-watcher.git"
+  },
+  "keywords": [
+    "star-watcher"
+  ],
+  "author": "theapache64",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/theapache64/star-watcher/issues"
+  },
+  "homepage": "https://github.com/theapache64/star-watcher#readme",
+  "dependencies": {
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.1.2",
+    "@types/nodemailer": "^4.6.2",
+    "node-fetch": "^2.2.0"
+  }
+}
